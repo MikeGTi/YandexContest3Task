@@ -1,0 +1,1 @@
+This solutions for contest tasks
