@@ -38,7 +38,7 @@ public class StackOnArrayList<T> {
         if (this.isEmpty()) {
             return null;
         } else {
-            return list.remove(list.size()-1);
+            return list.remove(list.size() - 1);
         }
     }
 
@@ -49,6 +49,11 @@ public class StackOnArrayList<T> {
     public boolean isEmpty(){
         if (list == null) return true;
         return list.isEmpty();
+    }
+
+    public boolean isNotEmpty(){
+        if (list == null) return false;
+        return !list.isEmpty();
     }
 
     public Integer size(){
